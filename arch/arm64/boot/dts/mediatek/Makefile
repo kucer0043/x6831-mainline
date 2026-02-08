@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0
 dtb-$(CONFIG_ARCH_MEDIATEK) += mt2712-evb.dtb
 dtb-$(CONFIG_ARCH_MEDIATEK) += mt6755-evb.dtb
+dtb-$(CONFIG_ARCH_MEDIATEK) += mt6769-infinix-hot30.dtb
 dtb-$(CONFIG_ARCH_MEDIATEK) += mt6769t-xiaomi-lancelot-huaxing-ktd.dtb
 dtb-$(CONFIG_ARCH_MEDIATEK) += mt6769t-xiaomi-lancelot-tianma-ktd.dtb
 dtb-$(CONFIG_ARCH_MEDIATEK) += mt6769t-xiaomi-lancelot-tianma-ti.dtb

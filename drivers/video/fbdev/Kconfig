@@ -1389,6 +1389,12 @@ config FB_WM8505
 	  integrated LCD controller. This driver covers the WM8505, WM8650
 	  and WM8850 SoCs.
 
+config FB_EARLY
+       bool "Framebuffer earlycon"
+       depends on SERIAL_EARLYCON
+       select FONT_SUPPORT
+       select ARCH_USE_MEMREMAP_PROT
+
 config FB_WMT_GE_ROPS
 	bool "VT8500/WM8xxx accelerated raster ops support"
 	depends on (FB = y) && (FB_VT8500 || FB_WM8505)

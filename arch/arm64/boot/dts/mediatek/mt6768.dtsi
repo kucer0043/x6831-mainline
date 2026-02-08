@@ -1971,5 +1971,6 @@
 		mtkfb = "/dtbo-dummy";
 		keypad = "/dtbo-dummy";
 		odm = "/dtbo-dummy";
+		spi5 = "/dtbo-dummy";
 	};
 };
